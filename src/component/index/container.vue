@@ -172,15 +172,14 @@
     import technology from '../technology/technology.vue';
     import cooperation from '../cooperation/cooperation.vue';
     var containerConfig = {
-        index: 1,
+        index: 0,
         hoverCycle: 'none',
         pageContentStyle: {
-            transform: 'translate(0, -' + 100 + '%)'
+            transform: 'translate(0, -' + 0 + '%)'
         },
 //        crosswiseBodyManager: crosswiseBodyManager
     };
     export default {
-        props: ['test'],
         components: {
             technology: technology,
             cooperation: cooperation

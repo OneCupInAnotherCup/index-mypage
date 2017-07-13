@@ -55,6 +55,7 @@
         margin-top: -292.5px;
         background: #fffd58;
         z-index: -1;
+        box-shadow: 0 0 25px 10px #000;
         transform: translateX(-100%);
         transition: transform .6s, height .6s ease .6s;
         -moz-transition: transform .6s, height .6s ease .6s; /* Firefox 4 */
@@ -103,6 +104,7 @@
         font-weight: bold;
         color: #353535;
         cursor: pointer;
+        overflow: hidden;
         border-bottom: 3px solid #353535;
         transition: color .3s ease .3s;
         -moz-transition: color .3s ease .3s; /* Firefox 4 */
