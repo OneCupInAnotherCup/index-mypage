@@ -1,0 +1,17 @@
+@font-face {
+    font-family: '13pxbus';
+    src: url('../font/13pxbus.ttf');
+}
+
+@font-face {
+    font-family: 'Dancing Script';
+    src: url('../font/Dancing_Script.ttf');
+}
+
+html, body {
+    font-size: 0;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="../../lib/js/vue.2.3.4.js"></script>
+    <link rel="stylesheet" href="../../lib/css/common.css">
+    <link rel="stylesheet" href="../../lib/css/form.css">
+</head>
+<body>
+<form id="html5PageForm">
+    <div class="form-item">
+        <label>项目名</label>
+        <input placeholder="项目名称">
+    </div>
+    <div class="form-item">
+        <label>项目工时</label>
+        <input placeholder="项目工时，单位：天/人">
+    </div>
+    <div class="form-item">
+        <label>项目报价</label>
+        <input placeholder="项目报价，单位：元">
+    </div>
+    <div class="form-item">
+        <label>联系邮箱</label>
+        <input placeholder="联系邮箱">
+    </div>
+    <div class="form-item">
+        <label>项目简介</label>
+        <textarea placeholder="项目内容简述"></textarea>
+    </div>
+    <div class="form-item form-msg">
+        <span>收到信息后，将在最短时间内通过邮件联系，请随时关注邮箱</span>
+    </div>
+    <div class="form-item form-button-group">
+        <button class="form-button">提交</button>
+    </div>
+</form>
+<script>
+    (function () {
+        var test = new Vue({
+            el: '#html5PageForm',
+            created: function () {
+                parent.alert.alertBodyHeight = document.body.scrollHeight + 'px';
+            },
+            data: {
+                testMsg: 'test msg'
+            }
+        });
+    })()
+</script>
+</body>
+</html>

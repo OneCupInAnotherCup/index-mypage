@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>合作内容</title>
+</head>
+<body>
+<div id="cooperationAlertContent">
+    <background-management v-if="type.backgroundManagement.status"></background-management>
+    <free-consultation v-if="type.freeConsultation.status"></free-consultation>
+    <html5-page v-if="type.html5Page.status"></html5-page>
+</div>
+</body>
+</html>
